@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$(bc <<< "scale=2; $power_value / $divide_value")
+result=$( <<< "scale=2 $power_value / $divide_value")
